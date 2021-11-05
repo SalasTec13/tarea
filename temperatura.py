@@ -15,5 +15,5 @@ while True:
   # str() convierte el valor en una cadena de caracteres, para que pueda ser concatenado
   message = "Temperatura: " + str(t) + " Presión: " + str(p) + " Humedad: " + str(h)
   # Muestra el mensaje
-  sense.show_message(message, scroll_speed=0.01)
+  sense.show_message(message)
   
